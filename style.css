@@ -1,0 +1,147 @@
+/* root open */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Open Sans;
+    color: #2D3954;
+    font-size: 0.9rem;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+/* root close */
+
+
+/*responsive for tablet*/
+@media(max-width:890px) {
+
+}
+
+/*responsive for android*/
+@media(max-width:560px) {
+    .container{
+        width: 95%;
+    }
+    .image-top{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .image-bottom{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .top{
+        width: 100px;
+        position: relative;
+        top: 5px;
+        right: 5px;
+    }
+    .bottom{
+        width: 100px;
+        position: relative;
+        bottom: 5px;
+        left: 5px;
+    }
+    .box-main{
+        width: 100%;
+        background-color: rgba(56, 182, 255, 0.3);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+    }
+    .end-page{
+        background-color: #fff;
+    }
+    .box-main .main-image{
+        width: 170px;
+    }
+    .box-main h1.page-one{
+        margin-top: -250px;
+    }
+    .box-main p{
+        font-size: 1.2rem;
+    }
+    .box-main audio{
+        width: 100%;
+        margin: 10px 0;
+        border-radius: 0;
+    }
+    .box-main .for-heart{
+        width: 286px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 18px;
+        gap: 1px;
+    }
+    .box-main .heart{
+        width: 40px;
+        height: 40px;
+    }
+    .box-main .heart.active{
+        background-color: #000;
+    }
+    .box-main .tree{
+        width: 200px;
+    }
+    .box-main .garis{
+        background-color: #38B6FF;
+        width: 3px;
+        height: 100px;
+        margin: -5px 0;
+    }
+    .tr-right{
+        transform: rotate(45deg);
+    }
+    .tr-left{
+        transform: rotate(-45deg);
+    }
+    .f-line{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .f-line .line{
+        width: 2px;
+        height: 90px;
+        background-color: #00DBEC;
+    }
+
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        gap: 10px;
+    }
+    nav button{
+        background-color: #38B6FF;
+        outline: none;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    nav button:hover{
+        transition: .3s;
+        background-color: #00DBEC;
+    }
+}
